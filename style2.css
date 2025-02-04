@@ -1,0 +1,77 @@
+body {
+    margin: 0px;
+}
+
+nav{
+    background-color: burlywood;
+    padding: 10px 0; 
+    text-align: center; 
+}
+
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background-image: url(cedid.png);
+    padding: 50px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.container {
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    color: aliceblue;
+    position: relative;
+}
+
+header .overlay{
+    position:absolute;
+    background-color: black;
+    opacity: 0.6;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+}
+
+.botton-primary{
+    margin-top: 20px;
+    display: inline-block;
+    background-color: rgb(135, 219, 219);
+    padding: 10px 15px;
+    text-decoration: none;
+    color: rgb(226, 26, 26);
+    opacity: 0.8;
+    text-transform: uppercase;
+    
+}
+.botton-primary:hover{
+    opacity: 1;
+    transition: 0.35%;
+}
+
+.button-secondary {
+    padding: 10px 15px;
+    text-decoration: none;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+
+.button-secondary:hover
+{
+    background-color: aqua;
+    transition: 0.35%;
+}
